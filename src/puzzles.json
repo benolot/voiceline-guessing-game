@@ -1,0 +1,22 @@
+[
+    {
+        "puzzlenumber": "001",
+        "game": "VALORANT",
+        "character": "Jett",
+        "answer": "val-jett",
+        "unlocktime": "1714690800",
+        "clueOne": "one.mpeg",
+        "clueTwo": "two.mpeg",
+        "clueThree": "three.mpeg"
+    },
+    {
+        "puzzlenumber": "002",
+        "game": "League of Legends",
+        "character": "Jinx",
+        "answer": "lol-jinx",
+        "unlocktime": "1716048180",
+        "clueOne": "one.ogg",
+        "clueTwo": "two.ogg",
+        "clueThree": "three.ogg"
+    }
+]
