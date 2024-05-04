@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <title>Voicedle - {{puzzlenumber}}</title>
-        <meta name="description" content=""/>
+        <title>Voicedle - Daily Voice Line puzzle guessing game</title>
+        <meta name="description" content="Daily Voice Line puzzle guessing game"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <!-- CSS -->
         <link href="https://cdn.jsdelivr.net/npm/flatifycss/dist/css/flatify.min.css" rel="stylesheet" crossorigin="anonymous" />
