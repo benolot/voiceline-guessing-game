@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html x-data :class="$store.darkMode.on && 'bg-black'">
+<html lang="en" x-data :class="$store.darkMode.on && 'bg-black'">
     <head>
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -21,7 +21,7 @@
             <h1 id="title">Voicedle</span></h1>
             <hr/>
             {{#puzzles}}
-                <a x-cloak x-show="show" x-init="() => show = $store.currentTime > {{unlocktime}} ?  true: false" href="{{puzzlenumber}}.html"><button class="button style-accent bordered" aria-label="Go to puzzle {{puzzlenumber}}">Puzzle {{puzzlenumber}}</button></a>
+                <a x-cloak x-show="show" x-init="() => show = $store.currentTime > {{unlocktime}} ?  true: false" href="{{puzzlenumber}}.html"><button class="button style-accent color-dark bordered" aria-label="Go to puzzle {{puzzlenumber}}">Puzzle {{puzzlenumber}}</button></a>
             {{/puzzles}}
             <!-- Footer -->
             <hr/>
