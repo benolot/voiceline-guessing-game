@@ -2,6 +2,13 @@ const fs = require('fs');
 const Mustache = require('mustache');
 const puzzles = JSON.parse(fs.readFileSync('src/puzzles.json', 'utf-8'));
 
+if (!fs.existsSync('dist')) {
+    fs.mkdirSync('dist');
+}
+if (!fs.existsSync('dist/res')) {
+    fs.mkdirSync('dist/res');
+}
+
 function renderPuzzle(data) {
     const template = fs.readFileSync('src/puzzle.mst', 'utf-8');
     const options = fs.readFileSync('src/partials/options.mst', 'utf-8');
