@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html x-data :class="$store.darkMode.on && 'bg-black'">
+<html x-data :class="$store.darkMode.on ? 'black' : 'light'">
     <head>
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -19,7 +19,6 @@
         <div class="container-md">
             <!-- Title -->
             <h1 id="title">Voicedle - Puzzle <span id="puzzlenumber">{{puzzlenumber}}</span></h1>
-
             <hr/>
 
             <!-- Clue One -->
@@ -68,6 +67,7 @@
             <!-- Footer -->
             <hr/>
             <a href="../index.html"><button class="button style-dark arrow-button arrow-left bordered" aria-label="Go Back to Menu">Menu</button></a>
+            <button x-data x-text="$store.darkMode.on ? 'Dark Mode' : 'Light Mode'" id="dark-mode" class="button style-dark arrow-button arrow-right bordered" aria-label="Toggle Dark Mode">Dark Mode</button>
             <p>All audio clips are copyright their original authors. This project is open source, you can find us on <a href="https://github.com/benolot/voiceline-guessing-game">Github</a>. Please report any issues there.</p>
         </div>
 
