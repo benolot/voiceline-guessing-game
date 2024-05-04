@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html x-data :class="$store.darkMode.on && 'bg-black'">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title>Voicedle - {{puzzlenumber}}</title>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/flatifycss/dist/css/flatify.min.css" rel="stylesheet" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css" />
+        <link rel="stylesheet" href="../res/css/custom.css" />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container-md">
+            <!-- Title -->
+            <h1 id="title">Voicedle</span></h1>
+            <hr/>
+            {{#puzzles}}
+                <a x-cloak x-show="show" x-init="() => show = $store.currentTime > {{unlocktime}} ?  true: false" href="{{puzzlenumber}}.html"><button class="button style-accent bordered" aria-label="Go to puzzle {{puzzlenumber}}">Puzzle {{puzzlenumber}}</button></a>
+            {{/puzzles}}
+            <!-- Footer -->
+            <hr/>
+            <p>All audio clips are copyright their original authors. This project is open source, you can find us on <a href="https://github.com/benolot/voiceline-guessing-game">Github</a>.</p>
+        </div>
+
+        <!-- Load JS -->
+        <script src="https://unpkg.com/@popperjs/core@2" crossorigin="anonymous" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/flatifycss/dist/js/flatify.min.js" crossorigin="anonymous" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js" crossorigin="anonymous" defer></script>
+        <script src="../res/js/index.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" crossorigin="anonymous" defer></script>
+    </body>
+</html>

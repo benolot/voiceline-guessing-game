@@ -1,0 +1,13 @@
+<option value="">Select an answer...</option>
+<option value="val-jett">VALORANT - Jett</option>
+<option value="val-cypher">VALORANT - Cypher</option>
+<option value="sc2-terran">Starcraft 2 - Terran Worker</option>
+<option value="mc-player">Minecraft - Player</option>
+<option value="mc-slime">Minecraft - Slime</option>
+<option value="mc-villager">Minecraft - Villager</option>
+<option value="hs-jaina">Hearthstone - Jaina Proudmoore (Mage)</option>
+<option value="hs-valeera">Hearthstone - Valeera Sanguinar (Rogue)</option>
+<option value="hs-garrosh">Hearthstone - Garrosh Hellscream (Warrior)</option>
+<option value="lol-jinx">League of Legends - Jinx</option>
+<option value="lol-vi">League of Legends - Vi</option>
+<option value="lol-sona">League of Legends - Sona</option>
