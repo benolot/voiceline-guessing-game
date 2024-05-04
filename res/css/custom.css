@@ -1,6 +1,60 @@
 [x-cloak] {
-    display: none !important;
+  display: none !important;
 }
-.dark {
-    background-color: #1f1f1f;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --flatify__hover-brightness: 110%;
+
+    --flatify__bg-color: #10191c !important;
+    --flatify__bg-color-dark: #141f23 !important;
+    --flatify__bg-color-darker: #263b43 !important;
+    --flatify__bg-color-darkest: #385661 !important;
+    --flatify__color-light-light: #141f23 !important;
+    --flatify__color-light-primary: #10191c !important;
+    --flatify__color-light-dark: #263b43 !important;
+
+    --flatify__txt-color: #f1f4f7;
+    --flatify__txt-color-dark: #ced9e3;
+    --flatify__txt-color-darker: #809cb6;
+    --flatify__txt-color-inverted: #141f23;
+    --flatify__color-dark-light: #f1f4f7;
+    --flatify__color-dark-primary: #ced9e3;
+    --flatify__color-dark-dark: #809cb6;
+  }
+}
+html.dark {
+  --flatify__hover-brightness: 110%;
+
+  --flatify__bg-color: #10191c !important;
+  --flatify__bg-color-dark: #141f23 !important;
+  --flatify__bg-color-darker: #263b43 !important;
+  --flatify__bg-color-darkest: #385661 !important;
+  --flatify__color-light-light: #141f23 !important;
+  --flatify__color-light-primary: #10191c !important;
+  --flatify__color-light-dark: #263b43 !important;
+
+  --flatify__txt-color: #f1f4f7;
+  --flatify__txt-color-dark: #ced9e3;
+  --flatify__txt-color-darker: #809cb6;
+  --flatify__txt-color-inverted: #141f23;
+  --flatify__color-dark-light: #f1f4f7;
+  --flatify__color-dark-primary: #ced9e3;
+  --flatify__color-dark-dark: #809cb6;
+}
+html.light {
+  --flatify__hover-brightness: 95% !important;
+  --flatify__bg-color: #ffffff !important;
+  --flatify__bg-color-dark: #f1f4f7 !important;
+  --flatify__bg-color-darker: #ced9e3 !important;
+  --flatify__bg-color-darkest: #809cb6 !important;
+  --flatify__txt-color: #2e4051 !important;
+  --flatify__txt-color-dark: #1e2a35 !important;
+  --flatify__txt-color-inverted: #ffffff !important;
+  --flatify__color-light-primary: #f1f4f7 !important;
+  --flatify__color-light-light: #ffffff !important;
+  --flatify__color-light-dark: #ced9e3 !important;
+  --flatify__color-dark-primary: #2e4051 !important;
+  --flatify__color-dark-light: #77838e !important;
+  --flatify__color-dark-dark: #1e2a35 !important;
 }
