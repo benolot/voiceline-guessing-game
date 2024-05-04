@@ -13,5 +13,5 @@ document.addEventListener('alpine:init', () => {
     });
     let today = new Date;
     today.setHours(0,0,0,0);
-    Alpine.store('currentTime', today);
+    Alpine.store('currentTime', today.getTime() / 1000);
 });

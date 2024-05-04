@@ -1,6 +1,6 @@
 // Setup the search box
 const element = document.querySelector('#choice');
-const choices = new Choices(element);
+const choices = new Choices(element, { renderChoiceLimit: 1 });
 
 // Initalise Alpine
 document.addEventListener('alpine:init', () => {
@@ -37,10 +37,10 @@ function checkAnswer(puzzle) {
     if (submmitedAnswer == puzzle.answer) {
         Alpine.store('guessindex', 4);
         const niceName = document.querySelector(`option[value="${submmitedAnswer}"]`).textContent;
-        Alpine.store('guesshistory', [...Alpine.store('guesshistory'), {niceName, correct: true}]);
+        Alpine.store('guesshistory', [...Alpine.store('guesshistory'), {niceName: '✅ ' + niceName, correct: true}]);
     } else {
         Alpine.store('guessindex', Alpine.store('guessindex') + 1);
         const niceName = document.querySelector(`option[value="${submmitedAnswer}"]`).textContent;
-        Alpine.store('guesshistory', [...Alpine.store('guesshistory'), {niceName, correct: false}]);
+        Alpine.store('guesshistory', [...Alpine.store('guesshistory'), { niceName: '❌ ' + niceName, correct: false}]);
     }
 }

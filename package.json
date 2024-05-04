@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "mustache": "^4.2.0"
-  }
+  },
+  "name": "voiceline-guessing-game",
+  "description": "Voicedle is a daily guessing game inspired by Wordle, Heardle, Spotle, Gamedle, and all of the many other guessing games. Users are given three chances to guess a video game character from three clips of a voice line or sound effect that character makes.",
+  "version": "1.0.0",
+  "main": "render.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node render.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benolot/voiceline-guessing-game.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/benolot/voiceline-guessing-game/issues"
+  },
+  "homepage": "https://github.com/benolot/voiceline-guessing-game#readme"
 }

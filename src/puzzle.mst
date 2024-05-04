@@ -68,7 +68,7 @@
             <!-- Footer -->
             <hr/>
             <a href="../index.html"><button class="button style-dark arrow-button arrow-left bordered" aria-label="Go Back to Menu">Menu</button></a>
-            <p>All audio clips are copyright their original authors. This project is open source, you can find us on <a href="https://github.com/benolot/voiceline-guessing-game">Github</a>.</p>
+            <p>All audio clips are copyright their original authors. This project is open source, you can find us on <a href="https://github.com/benolot/voiceline-guessing-game">Github</a>. Please report any issues there.</p>
         </div>
 
         <!-- Load JS -->

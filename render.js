@@ -1,7 +1,10 @@
+console.log('Beginning Build...');
+console.log('Loading Dependencies...');
 const fs = require('fs');
 const Mustache = require('mustache');
 const puzzles = JSON.parse(fs.readFileSync('src/puzzles.json', 'utf-8'));
 
+console.log('Creating dist folders if they dont already exist...');
 if (!fs.existsSync('dist')) {
     fs.mkdirSync('dist');
 }
@@ -30,11 +33,16 @@ function renderIndex() {
     });
 }
 
+console.log('Generating Puzzle Pages...')
 puzzles.forEach(puzzle => {
     renderPuzzle(puzzle);
 });
 
+console.log('Generating Index Page...');
 renderIndex();
 
+console.log('Copying static resources...');
 fs.copyFileSync('src/puzzles.json', 'dist/res/puzzles.json');
 fs.cpSync('res/', 'dist/res', { recursive: true});
+
+console.log('Build completed')
