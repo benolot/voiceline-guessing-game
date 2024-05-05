@@ -58,3 +58,16 @@ html.light {
   --flatify__color-dark-light: #77838e !important;
   --flatify__color-dark-dark: #1e2a35 !important;
 }
+
+.flex {
+    display: flex;
+    gap: 1rem;
+}
+
+.is-highlighted, .choices__input {
+    background-color: var(--flatify__bg-color-darker) !important;
+}
+
+.choices__list--dropdown, .choices__inner {
+    background-color: var(--flatify__card-bg-color) !important;
+}
