@@ -14,7 +14,7 @@ For running locally, please make sure you have `NodeJS 20.x.x` installed, then f
 
 ## Contributing
 
-This project is open to contributions! Please look at [the project's issues list](https://github.com/benolot/voiceline-guessing-game/issues) for areas that need help, or just submit a PR with your improvements.
+This project is open to contributions! Please look at [the project's issues list](https://github.com/benolot/voiceline-guessing-game/issues) for areas that need help, or just submit a PR with your improvements. If anyone is unsure where to get started or needs help with making a contribution please open an issue (or comment on one you're trying to solve) - first time contributors welcome.
 
 ## Copyright
 
