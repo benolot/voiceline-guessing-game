@@ -31,10 +31,6 @@ loadPuzzle().then(puzzle => {
     document.getElementById('submit').addEventListener('click', (e) => {checkAnswer(puzzle)});
 });
 
-document.getElementById('dark-mode').addEventListener('click', (e) => {
-    Alpine.store('darkMode').toggle();
-});
-
 // Check answer is correct, and handle
 function checkAnswer(puzzle) {
     const submmitedAnswer = document.getElementById('choice').value;
