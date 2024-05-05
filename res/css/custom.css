@@ -64,7 +64,12 @@ html.light {
     gap: 1rem;
 }
 
-.is-highlighted, .choices__input {
+.choices__input {
+    border-radius: 0 !important;
+    background-color: var(--flatify__bg-color-dark) !important;
+}
+
+.is-highlighted {
     background-color: var(--flatify__bg-color-darker) !important;
 }
 
