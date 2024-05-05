@@ -59,11 +59,6 @@ html.light {
   --flatify__color-dark-dark: #1e2a35 !important;
 }
 
-.flex {
-    display: flex;
-    gap: 1rem;
-}
-
 .choices__input {
     border-radius: 0 !important;
     background-color: var(--flatify__bg-color-dark) !important;
