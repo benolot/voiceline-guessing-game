@@ -45,7 +45,7 @@
 
             <!-- Input -->
             <div x-data x-show="$store.guessindex < 4">
-                <p>Guess <span x-text="$store.guessindex"></span>of 3</p>
+                <p>Guess <span x-text="$store.guessindex"></span> of 3</p>
                 <select name="guess" id="choice">
                     {{> options}}
                 </select>
