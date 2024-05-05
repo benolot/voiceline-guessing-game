@@ -33,6 +33,15 @@ function renderIndex() {
     });
 }
 
+function render404() {
+    const template = fs.readFileSync('src/404.mst', 'utf-8');
+    const rendered = Mustache.render(template);
+    let stream = fs.createWriteStream('dist/404.html');
+    stream.once('open', function (fd) {
+        stream.end(rendered);
+    });
+}
+
 console.log('Generating Puzzle Pages...')
 puzzles.forEach(puzzle => {
     renderPuzzle(puzzle);
@@ -40,6 +49,9 @@ puzzles.forEach(puzzle => {
 
 console.log('Generating Index Page...');
 renderIndex();
+
+console.log('Generating 404 Page...');
+render404();
 
 console.log('Copying static resources...');
 fs.copyFileSync('src/puzzles.json', 'dist/res/puzzles.json');
