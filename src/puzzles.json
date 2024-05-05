@@ -18,5 +18,15 @@
         "clueOne": "one.ogg",
         "clueTwo": "two.ogg",
         "clueThree": "three.ogg"
+    },
+    {
+        "puzzlenumber": "003",
+        "game": "Red Dead Redemption 2",
+        "character": "Dutch Van Der Linde",
+        "answer": "rdr-dutch",
+        "unlocktime": "1714953600",
+        "clueOne": "one.ogg",
+        "clueTwo": "two.ogg",
+        "clueThree": "three.ogg"
     }
 ]
