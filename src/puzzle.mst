@@ -58,11 +58,11 @@
             </div>
 
             <!-- Guess History -->
-            <ul class="flex-column-center" x-data>
+            <div class="flex-column-center" x-data>
                 <template x-for="guess in $store.guesshistory">
-                    <li x-text="guess.niceName" class="alert width-100p" :class="guess.correct ? 'style-success' : 'style-danger'"></li>
+                    <p x-text="guess.niceName" class="alert width-100p" :class="guess.correct ? 'style-success' : 'style-danger'"></p>
                 </template>
-            </ul>
+            </div>
 
             <!-- Footer -->
             <hr/>
