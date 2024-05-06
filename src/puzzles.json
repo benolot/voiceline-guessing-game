@@ -28,5 +28,15 @@
         "clueOne": "one.ogg",
         "clueTwo": "two.ogg",
         "clueThree": "three.ogg"
+    },
+    {
+        "puzzlenumber": "004",
+        "game": "Overwatch (Series)",
+        "character": "Tracer",
+        "answer": "ow-tracer",
+        "unlocktime": "1715040000",
+        "clueOne": "one.ogg",
+        "clueTwo": "two.ogg",
+        "clueThree": "three.ogg"
     }
 ]
