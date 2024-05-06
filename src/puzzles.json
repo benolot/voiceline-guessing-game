@@ -38,5 +38,15 @@
         "clueOne": "one.ogg",
         "clueTwo": "two.ogg",
         "clueThree": "three.ogg"
+    },
+    {
+        "puzzlenumber": "005",
+        "game": "Starcraft 2",
+        "character": "Protoss Pheonix",
+        "answer": "sc2-pheonix",
+        "unlocktime": "1715126400",
+        "clueOne": "one.ogg",
+        "clueTwo": "two.ogg",
+        "clueThree": "three.ogg"
     }
 ]

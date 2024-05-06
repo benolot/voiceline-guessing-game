@@ -21,7 +21,14 @@
 <option value="val-gekko">VALORANT - Gekko</option>
 <option value="val-deadlock">VALORANT - Deadlock</option>
 <option value="val-iso">VALORANT - Iso</option>
-<option value="sc2-terran">Starcraft 2 - Terran SCV</option>
+<option value="sc2-scv">Starcraft 2 - Terran SCV</option>
+<option value="sc2-marine">Starcraft 2 - Terran Marine</option>
+<option value="sc2-carrier">Starcraft 2 - Protoss Carrier</option>
+<option value="sc2-pheonix">Starcraft 2 - Protoss Pheonix</option>
+<option value="sc2-probe">Starcraft 2 - Protoss Probe</option>
+<option value="sc2-zealot">Starcraft 2 - Protoss Zealot</option>
+<option value="sc2-hightemp">Starcraft 2 - Protoss High Templar</option>
+<option value="sc2-darktemp">Starcraft 2 - Protoss Dark Templar</option>
 <option value="sc2-sarah">Starcraft 2 - Sarah Kerrigan</option>
 <option value="sc2-jim">Starcraft 2 - Jim Raynor</option>
 <option value="sc2-zeratul">Starcraft 2 - Zeratul</option>
