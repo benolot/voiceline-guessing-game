@@ -135,4 +135,13 @@
 <option value="ow-illari">Overwatch 2 - Illari</option>
 <option value="ow-mauga">Overwatch 2 - Mauga</option>
 <option value="ow-venture">Overwatch 2 - Venture</option>
-<option value="tf2-spu">Team Fortress 2 - The Spy</option>
+<option value="tf2-spy">Team Fortress 2 - The Spy</option>
+<option value="tf2-sniper">Team Fortress 2 - The Sniper</option>
+<option value="tf2-soldier">Team Fortress 2 - The Soldier</option>
+<option value="tf2-scout">Team Fortress 2 - The Scout</option>
+<option value="tf2-demoman">Team Fortress 2 - The Demoman</option>
+<option value="tf2-medic">Team Fortress 2 - The Medic</option>
+<option value="tf2-heavy">Team Fortress 2 - The Heavy</option>
+<option value="tf2-pyro">Team Fortress 2 - The Pyro</option>
+<option value="tf2-engineer">Team Fortress 2 - The Engineer</option>
+<option value="tf2-pauline">Team Fortress 2 - Miss Pauline</option>
