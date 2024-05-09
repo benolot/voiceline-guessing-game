@@ -48,5 +48,15 @@
         "clueOne": "one.ogg",
         "clueTwo": "two.ogg",
         "clueThree": "three.ogg"
+    },
+    {
+        "puzzlenumber": "006",
+        "game": "Team Fortress 2",
+        "character": "The Spy",
+        "answer": "tf2-soy",
+        "unlocktime": "1715378400",
+        "clueOne": "one.ogg",
+        "clueTwo": "two.ogg",
+        "clueThree": "three.ogg"
     }
 ]
