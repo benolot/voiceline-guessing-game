@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node render.js"
+    "build": "node render.js",
+    "cleanbuild": "node render.js clean"
   },
   "repository": {
     "type": "git",

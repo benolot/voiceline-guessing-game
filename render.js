@@ -4,12 +4,18 @@ const fs = require('fs');
 const Mustache = require('mustache');
 const puzzles = JSON.parse(fs.readFileSync('src/puzzles.json', 'utf-8'));
 
-console.log('Creating dist folders if they dont already exist...');
-if (!fs.existsSync('dist')) {
-    fs.mkdirSync('dist');
+// Get the args after `node render.js`
+var args = process.argv.slice(2);
+if (args[0] == 'clean') {
+    console.log('Clean build requested, removing dist folder if it exists')
+    if (fs.existsSync('dist')) {
+        fs.rmSync('dist', { recursive: true });
+    }
 }
+
+console.log('Creating dist folders if they dont already exist...');
 if (!fs.existsSync('dist/res')) {
-    fs.mkdirSync('dist/res');
+    fs.mkdirSync('dist/res', { recursive: true });
 }
 
 function renderPuzzle(data) {
