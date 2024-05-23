@@ -3,6 +3,7 @@ console.log('Loading Dependencies...');
 const fs = require('fs');
 const Mustache = require('mustache');
 const puzzles = JSON.parse(fs.readFileSync('src/puzzles.json', 'utf-8'));
+const puzzleopts = JSON.parse(fs.readFileSync('src/options.json', 'utf-8'));
 
 console.log('Creating dist folders if they dont already exist...');
 if (!fs.existsSync('dist')) {
@@ -12,9 +13,20 @@ if (!fs.existsSync('dist/res')) {
     fs.mkdirSync('dist/res');
 }
 
-function renderPuzzle(data) {
+function renderOptions(options) {
+    let optsStr = '<option value="">Search for a game or character or submit to skip</option>';
+    options.forEach(game => {
+        game.choices.forEach(choice => {
+            let option = `<option value="${game.short}-${choice.short}">${game.name} - ${choice.name}</option>`;
+            optsStr += option;
+        })
+    })
+
+    return optsStr;
+}
+
+function renderPuzzle(data, options) {
     const template = fs.readFileSync('src/puzzle.mst', 'utf-8');
-    const options = fs.readFileSync('src/partials/options.mst', 'utf-8');
     const rendered = Mustache.render(template, data, { options });
     const number = data.puzzlenumber
     let stream = fs.createWriteStream(`dist/${number}.html`);
@@ -42,9 +54,12 @@ function render404() {
     });
 }
 
+console.log('Generating Puzzle Choices...')
+var options = renderOptions(puzzleopts)
+
 console.log('Generating Puzzle Pages...')
 puzzles.forEach(puzzle => {
-    renderPuzzle(puzzle);
+    renderPuzzle(puzzle, options);
 });
 
 console.log('Generating Index Page...');
