@@ -1,6 +1,6 @@
 # Voicedle
 
-Voicedle is a daily guessing game inspired by Wordle, Heardle, Spotle, Gamedle, and all of the many other guessing games.
+Voicedle is a guessing game inspired by Wordle, Heardle, Spotle, Gamedle, and all of the many other guessing games.
 Users are given three chances to guess a video game character from three clips of a voice line or sound effect that character makes.
 
 ## Developing
