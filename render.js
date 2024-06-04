@@ -5,7 +5,7 @@ const Mustache = require('mustache');
 const puzzles = JSON.parse(fs.readFileSync('src/puzzles.json', 'utf-8'));
 
 // Get the args after `node render.js`
-var args = process.argv.slice(2);
+const args = process.argv.slice(2);
 if (args[0] == 'clean') {
     console.log('Clean build requested, removing dist folder if it exists')
     if (fs.existsSync('dist')) {
