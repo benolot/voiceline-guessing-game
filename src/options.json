@@ -1,0 +1,399 @@
+[
+    {
+        "name": "VALORANT",
+        "short": "val",
+        "choices": [
+            { "short": "jett",       "name": "Jett" },
+            { "short": "cypher",     "name": "Cypher" },
+            { "short": "pheonix",    "name": "Pheonix" },
+            { "short": "killjoy",    "name": "Killjoy" },
+            { "short": "astra",      "name": "Astra" },
+            { "short": "omen",       "name": "Omen" },
+            { "short": "reyna",      "name": "Reyna" },
+            { "short": "raze",       "name": "Raze" },
+            { "short": "sage",       "name": "Sage" },
+            { "short": "clove",      "name": "Clove" },
+            { "short": "chamber",    "name": "Chamber" },
+            { "short": "sova",       "name": "Sova" },
+            { "short": "brimstone",  "name": "Brimstone" },
+            { "short": "viper",      "name": "Viper" },
+            { "short": "skye",       "name": "Skye" },
+            { "short": "yoru",       "name": "Yoru" },
+            { "short": "kayo",       "name": "KAY" },
+            { "short": "neon",       "name": "Neon" },
+            { "short": "fade",       "name": "Fade" },
+            { "short": "gekko",      "name": "Gekko" },
+            { "short": "deadlock",   "name": "Deadlock" },
+            { "short": "iso",        "name": "Iso" }
+        ]
+    },
+    {
+        "name": "Starcraft 2",
+        "short": "sc2",
+        "choices": [
+            {"short": "scv",      "name": "Terran SCV"},
+            {"short": "marine",   "name": "Terran Marine"},
+            {"short": "carrier",  "name": "Protoss Carrier"},
+            {"short": "pheonix",  "name": "Protoss Pheonix"},
+            {"short": "probe",    "name": "Protoss Probe"},
+            {"short": "zealot",   "name": "Protoss Zealot"},
+            {"short": "hightemp", "name": "Protoss High Templar"},
+            {"short": "darktemp", "name": "Protoss Dark Templar"},
+            {"short": "sarah",    "name": "Sarah Kerrigan"},
+            {"short": "jim",      "name": "Jim Raynor"},
+            {"short": "zeratul",  "name": "Zeratul"}
+        ]
+    },
+    {
+        "name": "Minecraft",
+        "short": "mc",
+        "choices": [
+            {"short": "player",   "name": "Player"},
+            {"short": "slime",    "name": "Slime"},
+            {"short": "villager", "name": "Villager"}
+        ]
+    },
+    {
+        "name": "Hearthstone",
+        "short": "hs",
+        "choices": [
+            {"short": "jaina",   "name": "Jaina Proudmoore (Mage)"},
+            {"short": "valeera", "name": "Valeera Sanguinar (Rogue)"},
+            {"short": "garrosh", "name": "Garrosh Hellscream (Warrior)"}
+        ]
+    },
+    {
+        "name": "League Of Legends",
+        "short": "lol",
+        "choices": [
+            {"short": "jinx",    "name": "Jinx"},
+            {"short": "vi",      "name": "Vi"},
+            {"short": "sona",    "name": "Sona"},
+            {"short": "caitlyn", "name": "Caitlyn"},
+            {"short": "illaoi",  "name": "Illaoi"},
+            {"short": "aatrox",  "name": "Aatrox"},
+            {"short": "annie",   "name": "Annie"},
+            {"short": "bard",    "name": "Bard"},
+            {"short": "ekko",    "name": "Ekko"},
+            {"short": "garen",   "name": "Garen"},
+            {"short": "lulu",    "name": "Lulu"}
+        ]
+    },
+    {
+        "name": "Super Mario (Series)",
+        "short": "smb",
+        "choices": [
+            {"short": "mario",  "name": "Mario"},
+            {"short": "yoshi",  "name": "Yoshi"},
+            {"short": "peach",  "name": "Peach"},
+            {"short": "daisy",  "name": "Daisy"},
+            {"short": "luigi",  "name": "Luigi"},
+            {"short": "bowser", "name": "Bowser"}
+        ]
+    },
+    {
+        "name": "Mass Effect",
+        "short": "me",
+        "choices": [
+            {"short": "shepard",   "name": "Commander Shepard"},
+            {"short": "ashley",    "name": "Ashley Williams"},
+            {"short": "garrus",    "name": "Garrus Vakarian"},
+            {"short": "liara",     "name": "Liara T'Soni"},
+            {"short": "talizorah", "name": "Tali'Zorah nar Rayya"},
+            {"short": "talizorah", "name": "Urdnot Wrex"},
+            {"short": "kaiden",    "name": "Kaiden Alenko"},
+            {"short": "kate",      "name": "Kate Bowman"},
+            {"short": "sovereign", "name": "Sovereign"}
+        ]
+    },
+    {
+        "name": "Grand Theft Auto: San Andreas",
+        "short": "gtasa",
+        "choices": [
+            {"short": "cj", "name": "Carl 'CJ' Johnson"}
+        ]
+    },
+    {
+        "name": "Grand Theft Auto V",
+        "short": "gtav",
+        "choices": [
+            {"short": "trevor",   "name": "Trevor Philips"},
+            {"short": "franklin", "name": "Franklin Clinton"},
+            {"short": "michael",  "name": "Michael De Santa"},
+            {"short": "lester",   "name": "Lester Crest"}
+        ]
+    },
+    {
+        "name": "The Elder Scrolls V",
+        "short": "esv",
+        "choices": [
+            {"short": "ralof", "name": "Ralof"}
+        ]
+    },
+    {
+        "name": "Far Cry 3",
+        "short": "fc",
+        "choices": [
+            {"short": "vaas", "name": "Vaas"}
+        ]
+    },
+    {
+        "name": "Red Dead Redemption 2",
+        "short": "rdr",
+        "choices": [
+            {"short": "arthur", "name": "Arthur Morgan"},
+            {"short": "micah",  "name": "Micah Bell"},
+            {"short": "dutch",  "name": "Dutch Van Der Linde"},
+            {"short": "john",   "name": "John Marston"},
+            {"short": "bill",   "name": "Bill Williamson"},
+            {"short": "sadie",  "name": "Sadie Matthews"}
+        ]
+    },
+    {
+        "name": "Star Wars Jedi: Fallen Order",
+        "short": "swjfo",
+        "choices": [
+            {"short": "cal",   "name": "Cal Kestis"},
+            {"short": "greez", "name": "Greez Dritus"},
+            {"short": "cere",  "name": "Cere Junda"}
+        ]
+    },
+    {
+        "name": "Halo (Series)",
+        "short": "halo",
+        "choices": [
+            {"short": "mc",      "name": "Master Chief"},
+            {"short": "cortana", "name": "Cortana"}
+        ]
+    },
+    {
+        "name": "Final Fantasy XIV",
+        "short": "ffxiv",
+        "choices": [
+            {"short": "cid",       "name": "Cid Garlond"},
+            {"short": "alphinaud", "name": "Alphinaud Leveilleur"},
+            {"short": "alisaie",   "name": "Alisaie Leveilleur"},
+            {"short": "yshtola",   "name": "Y'shtola Rhul"},
+            {"short": "minfilia",  "name": "Minfilia Warde"},
+            {"short": "yda",       "name": "Yda Hext"},
+            {"short": "papalymo",  "name": "Papalymo Totolymo"},
+            {"short": "thancred",  "name": "Thancred Waters"},
+            {"short": "urianger",  "name": "Urianger Augurelt"},
+            {"short": "tataru",    "name": "Tataru Taru"}
+        ]
+    },
+    {
+        "name": "Baldurs Gate 3",
+        "short": "bg3",
+        "choices": [
+            {"short": "gale", "name": "Gale"},
+            {"short": "astarion", "name": "Astarion"},
+            {"short": "karlach", "name": "Karlach"},
+            {"short": "shadowheart", "name": "Shadowheart"},
+            {"short": "wyll", "name": "Wyll"},
+            {"short": "laezel", "name": "Lae'zel"},
+            {"short": "laezel", "name": "Halsin"},
+            {"short": "minthara", "name": "Minthara"},
+            {"short": "minsc", "name": "Minsc"},
+            {"short": "jaheira", "name": "Jaheira"}
+        ]
+    },
+    {
+        "name": "Overwatch (Series)",
+        "short": "ow",
+        "choices": [
+            {"short": "winston",    "name": "Winston"},
+            {"short": "mercy",      "name": "Mercy"},
+            {"short": "doomfist",   "name": "Doomfist"},
+            {"short": "dva",        "name": "D.Va"},
+            {"short": "orisa",      "name": "Orisa"},
+            {"short": "reinhardt",  "name": "Reinhardt"},
+            {"short": "roadhog",    "name": "Roadhog"},
+            {"short": "sigma",      "name": "Sigma"},
+            {"short": "tracer",     "name": "Tracer"},
+            {"short": "reaper",     "name": "Reaper"},
+            {"short": "widowmaker", "name": "Widowmaker"},
+            {"short": "pharah",     "name": "Pharah"},
+            {"short": "torbjorn",   "name": "Torbjörn"},
+            {"short": "hanzo",      "name": "Hanzo"},
+            {"short": "zenyatta",   "name": "Zenyatta"},
+            {"short": "bastion",    "name": "Bastion"},
+            {"short": "symmetra",   "name": "Symmetra"},
+            {"short": "zarya",      "name": "Zarya"},
+            {"short": "cassidy",    "name": "Cassidy"},
+            {"short": "soldier",    "name": "Soldier: 76"},
+            {"short": "lucio",      "name": "Lúcio"},
+            {"short": "junkrat",    "name": "Junkrat"},
+            {"short": "mei",        "name": "Mei"},
+            {"short": "genji",      "name": "Genji"},
+            {"short": "ana",        "name": "Ana"},
+            {"short": "sombra",     "name": "Sombra"},
+            {"short": "moira",      "name": "Moira"},
+            {"short": "brigitte",   "name": "Brigitte"},
+            {"short": "wrecking",   "name": "Wrecking Ball"},
+            {"short": "ashe",       "name": "Ashe"},
+            {"short": "bap",        "name": "Baptiste"},
+            {"short": "echo",       "name": "Echo"}
+        ]
+    },
+    {
+        "name": "Overwatch 2",
+        "short": "ow",
+        "choices": [
+            {"short": "sojourn",    "name": "Sojourn"},
+            {"short": "junker",     "name": "Junker Queen"},
+            {"short": "kiriko",     "name": "Kiriko"},
+            {"short": "ramattra",   "name": "Ramattra"},
+            {"short": "lifeweaver", "name": "Lifeweaver"},
+            {"short": "illari",     "name": "Illari"},
+            {"short": "mauga",      "name": "Mauga"},
+            {"short": "venture",    "name": "Venture"}
+        ]
+    },
+    {
+        "name": "Team Fortress 2",
+        "short": "tf2",
+        "choices": [
+            {"short": "tf2-spy",      "name": "The Spy"},
+            {"short": "tf2-sniper",   "name": "The Sniper"},
+            {"short": "tf2-soldier",  "name": "The Soldier"},
+            {"short": "tf2-scout",    "name": "The Scout"},
+            {"short": "tf2-demoman",  "name": "The Demoman"},
+            {"short": "tf2-medic",    "name": "The Medic"},
+            {"short": "tf2-heavy",    "name": "The Heavy"},
+            {"short": "tf2-pyro",     "name": "The Pyro"},
+            {"short": "tf2-engineer", "name": "The Engineer"},
+            {"short": "tf2-pauline",  "name": "Miss Pauline"}
+        ]
+    },
+    {
+        "name": "DOTA 2",
+        "short": "dota2",
+        "choices": [
+            {"short": "abbadon",        "name": "Abbadon"},
+            {"short": "alchemist",      "name": "Alchemist"},
+            {"short": "aa",             "name": "Ancient Apparition"},
+            {"short": "am",             "name": "Anti-Mage"},
+            {"short": "arcwarden",      "name": "Arc Warden"},
+            {"short": "axe",            "name": "Axe"},
+            {"short": "bane",           "name": "Bane"},
+            {"short": "batrider",       "name": "Batrider"},
+            {"short": "beastmaster",    "name": "Beastmaster"},
+            {"short": "bloodseeker",    "name": "Bloodseeker"},
+            {"short": "bounty",         "name": "Bounty Hunter"},
+            {"short": "brewmaster",     "name": "Brewmaster"},
+            {"short": "bristleback",    "name": "Bristleback"},
+            {"short": "broodmother",    "name": "Broodmother"},
+            {"short": "centaur",        "name": "Centaur Warrunner"},
+            {"short": "ck",             "name": "Chaos Knight"},
+            {"short": "chen",           "name": "Chen"},
+            {"short": "clinx",          "name": "Clinx"},
+            {"short": "clockwerk",      "name": "Clockwerk"},
+            {"short": "cm",             "name": "Crystal Maiden"},
+            {"short": "darkseer",       "name": "Dark Seer"},
+            {"short": "darkwillow",     "name": "Dark Willow"},
+            {"short": "dawnbreaker",    "name": "Dawnbreaker"},
+            {"short": "dazzle",         "name": "Dazzle"},
+            {"short": "dp",             "name": "Death Prophet"},
+            {"short": "disrupter",      "name": "Disrupter"},
+            {"short": "doom",           "name": "Doom"},
+            {"short": "dk",             "name": "Dragon Knight"},
+            {"short": "drow",           "name": "Drow Ranger"},
+            {"short": "earthspirit",    "name": "Earth Spirit"},
+            {"short": "earthshaker",    "name": "Earthshaker"},
+            {"short": "eldertitan",     "name": "Elder Titan"},
+            {"short": "ember",          "name": "Ember Spirit"},
+            {"short": "enchantress",    "name": "Enchantress"},
+            {"short": "enigma",         "name": "Enigma"},
+            {"short": "fv",             "name": "Faceless Void"},
+            {"short": "grimstroke",     "name": "Grimstroke"},
+            {"short": "gyrocopter",     "name": "Gyrocopter"},
+            {"short": "hoodwink",       "name": "Hoodwink"},
+            {"short": "huskar",         "name": "Huskar"},
+            {"short": "invoker",        "name": "Invoker"},
+            {"short": "io",             "name": "IO"},
+            {"short": "jakiro",         "name": "Jakiro"},
+            {"short": "juggernaut",     "name": "Juggernaut"},
+            {"short": "kotl",           "name": "Keeper Of The Light"},
+            {"short": "kunkka",         "name": "Kunkka"},
+            {"short": "lc",             "name": "Legion Commander"},
+            {"short": "leshrac",        "name": "Leshrac"},
+            {"short": "lich",           "name": "Lich"},
+            {"short": "lifestealer",    "name": "Lifestealer"},
+            {"short": "lina",           "name": "Lina"},
+            {"short": "lion",           "name": "Lion"},
+            {"short": "ld",             "name": "Lone Druid"},
+            {"short": "luna",           "name": "Luna"},
+            {"short": "lycan",          "name": "Lycan"},
+            {"short": "magnus",         "name": "Magnus"},
+            {"short": "marci",          "name": "Marci"},
+            {"short": "mars",           "name": "Mars"},
+            {"short": "medusa",         "name": "Medusa"},
+            {"short": "meepo",          "name": "Meepo"},
+            {"short": "mirana",         "name": "Mirana"},
+            {"short": "monkeyking",     "name": "Monkey King"},
+            {"short": "morph",          "name": "Morphling"},
+            {"short": "muerta",         "name": "Muerta"},
+            {"short": "naga",           "name": "Naga Siren"},
+            {"short": "np",             "name": "Nature's Prophet"},
+            {"short": "necro",          "name": "Necophos"},
+            {"short": "ns",             "name": "Night Stalker"},
+            {"short": "nyx",            "name": "Nyx Assassin"},
+            {"short": "ogre",           "name": "Ogre Magi"},
+            {"short": "omni",           "name": "Omniknight"},
+            {"short": "oracle",         "name": "Oracle"},
+            {"short": "od",             "name": "Outworld Destroyer"},
+            {"short": "pangolier",      "name": "Pangolier"},
+            {"short": "pa",             "name": "Phantom Assassin"},
+            {"short": "pl",             "name": "Phantom Lancer"},
+            {"short": "pheonix",        "name": "Pheonix"},
+            {"short": "primal",         "name": "Primal Beast"},
+            {"short": "puck",           "name": "Puck"},
+            {"short": "pudge",          "name": "Pudge"},
+            {"short": "pugna",          "name": "Pugna"},
+            {"short": "qop",            "name": "Queen of Pain"},
+            {"short": "razor",          "name": "Razor"},
+            {"short": "riki",           "name": "Riki"},
+            {"short": "rubick",         "name": "Rubick"},
+            {"short": "sk",             "name": "Sand King"},
+            {"short": "shadowdemon",    "name": "Shadow Demon"},
+            {"short": "shadowfiend",    "name": "Shadow Fiend"},
+            {"short": "shadowshaman",   "name": "Shadow Shaman"},
+            {"short": "silencer",       "name": "Silencer"},
+            {"short": "skywrath",       "name": "Skywrath Mage"},
+            {"short": "slardar",        "name": "Slardar"},
+            {"short": "slark",          "name": "Slark"},
+            {"short": "snapfire",       "name": "Snapfire"},
+            {"short": "sniper",         "name": "Sniper"},
+            {"short": "spectre",        "name": "Spectre"},
+            {"short": "spectre",        "name": "Spirit Breaker"},
+            {"short": "storm",          "name": "Storm Spirit"},
+            {"short": "sven",           "name": "Sven"},
+            {"short": "techies",        "name": "Techies"},
+            {"short": "ta",             "name": "Templar Assassin"},
+            {"short": "terrorblade",    "name": "Terrorblade"},
+            {"short": "tidehunter",     "name": "Tidehunter"},
+            {"short": "timbersaw",      "name": "Timbersaw"},
+            {"short": "tinker",         "name": "Tinker"},
+            {"short": "tiny",           "name": "Tiny"},
+            {"short": "treant",         "name": "Treant Protector"},
+            {"short": "troll",          "name": "Troll Warlord"},
+            {"short": "tusk",           "name": "Tusk"},
+            {"short": "underlord",      "name": "Underlord"},
+            {"short": "undying",        "name": "Undying"},
+            {"short": "ursa",           "name": "Ursa"},
+            {"short": "venge",          "name": "Vengeful Spirit"},
+            {"short": "venomancer",     "name": "Venomancer"},
+            {"short": "viper",          "name": "Viper"},
+            {"short": "visage",         "name": "Visage"},
+            {"short": "voidspirit",     "name": "Void Spirit"},
+            {"short": "warlock",        "name": "Warlock"},
+            {"short": "weaver",         "name": "Weaver"},
+            {"short": "windranger",     "name": "Windranger"},
+            {"short": "winter",         "name": "Winter Wyvern"},
+            {"short": "witchdoctor",    "name": "Witch Doctor"},
+            {"short": "wraith",         "name": "Wraith King"},
+            {"short": "zeus",           "name": "Zeus"}
+        ]
+    }
+]
